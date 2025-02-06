@@ -84,7 +84,7 @@ fieldset legend{
 	font-weight: bold;
 }
 @media screen and (max-width:600px) {
-    aside, section{
+    aside, section,#formbox{
         width: 100%;
     }
 }
