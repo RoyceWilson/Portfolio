@@ -89,8 +89,3 @@ fieldset legend{
         width: 100%;
     }
 }
-@media only screen and (min-height: 824px) and (orientation: portrait){
-    aside, section,#formbox{
-        width: 100%;
-    }
-}
