@@ -41,6 +41,13 @@ footer{
     clear: both;
     text-align: center;
 }
+footer a{
+    text-decoration: none;
+    color: rgb(6, 88, 121);
+}
+footer a:hover{
+    color: rgb(85, 125, 143);
+}
 #end{
     background-color: white;
 }
