@@ -133,7 +133,7 @@ p a:hover{
 	margin-right: auto;
 }
 @media screen and (max-width:600px) {
-    aside, section,#formbox{
+    aside, section,#formbox,#resume,body{
         width: 100%;
     }
 }
