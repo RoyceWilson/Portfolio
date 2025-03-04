@@ -26,16 +26,32 @@
                 </a>
             </nav>
         </header>
-        <div id="Projectdiv">
+        <!--Project Gallery-->
         <main>
-            Showcase your notable projects, including personal and professional ones.
-            <br>
-For each project, include a title, a brief description, the date completed, technologies used, and screenshot or image related to the project.
-<br>List at least four of your projects (in web programming or any other project).
-<br>Organize the projects within a container. 
-<br>Each project should be represented by a div element containing the title, description, date, and an image.
-<br>Implement JavaScript to allow users to move between projects. <br>Add "Next" and "Previous" buttons that show or hide project information one at a time, creating a simple slideshow for browsing through projects.
-</div>
+            <div class="slider">
+                <div class="titles">
+                    <h2>Tool Rental DB Physical Diagram | Feb 2025</h2>
+                    <h2>Battery Checker Java Project | Nov 2024</h2>
+                    <h2>Button Counter Java Project | Jan 2025</h2>
+                    <h2>Fitness Tracker Java Project | March 2025</h2>
+                </div>
+                <div class="slides">
+                    <img src="images/ToolRentalDB.png" alt="Tool Rental DB Physical Diagram" title="Tool Rental DB Physical Diagram">
+                    <img src="images/BatteryChecker.png" alt="Battery Checker Java Project" title="Battery Checker Java Project">
+                    <img src="images/ButtonCounter.png" alt="Button Counter Java Project" title="Button Counter Java Project">
+                    <img src="images/Fitness Tracker.png" alt="Fitness Tracker Java Project" title="Fitness Tracker Java Project">
+                </div>
+                <div class="description">
+                    <p>Physical diagram for Database of an app used for Customer and Inventory management for a Tool Rental Company</p>
+                    <p>Flow Chart For Battery Checker Program testing if the size is within a tolerance</p>
+                    <p>Simple Button Counter to keep track of number of times a button is clicked</p>
+                    <p>Fitness Tracker program that takes user health information and outputs calculated data</p>
+                </div>
+                    <button class="prev" onclick="prevSlide()">&#10094</button>
+                    <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+            
+            <script src="index.js"></script>
         </main>
         <footer>
             <br>
